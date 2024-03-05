@@ -1,0 +1,37 @@
+.navbar{
+    height: 100px;
+
+    .wrapper{
+        max-width: 1366px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+    span{
+        font-weight: bold;
+    }
+
+    .social{
+        display: flex;
+        gap: 20px;
+
+        .facebook{
+            color: #316FF6;
+        }
+        .instagram{
+            color: #F3236C;
+            font-size: 20px;
+        }
+        .linkedin{
+            color :#0077b5;
+        }
+        .x{
+            color: #8b8a8a;
+        }
+        a{
+            font-size: 18px;
+        }
+    }
+}
